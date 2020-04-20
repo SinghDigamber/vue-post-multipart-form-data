@@ -8,6 +8,37 @@
 npm install
 ```
 
+## Set up Node/Express/MongoDB
+
+```
+git clone https://github.com/SinghDigamber/nodejs-file-upload-server.git backend
+```
+
+```
+cd backend
+```
+
+```
+npm install
+```
+
+## Run Mongo:
+```
+mongod --config /usr/local/etc/mongod.conf
+
+brew services start mongodb-community@4.2
+
+mongo
+```
+
+## Run nodemon server:
+
+```
+nodemon
+```
+
+
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
